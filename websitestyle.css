@@ -34,7 +34,7 @@ body:after{
 .dropdown:hover .dropdown-menu {
     display: block;
     opacity: 1;
-    background-color: gray;
+    background-color: lightblue;
 }
 
 .navbar-header a{
@@ -49,11 +49,15 @@ h2{
     color: gray;
 }
 .container-fluid{
-    background-color:rgba(0,0,0,.5);
+    background-color:rgba(0,100,150,.5);
 }
 .navbar-header:hover{
     background-color: lightblue;
 }
 .navbar-collapse li:hover{
     background-color: lightblue;
+}
+.dropdown li a:hover{
+    background-color:rgba(0,100,150,.5);
+    text-decoration: underline;
 }
