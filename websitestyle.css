@@ -1,14 +1,14 @@
 html {
-    background: url(paperairplane.jpg) no-repeat center center fixed;
+    background: url(1280px-Paperairplane.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 nav{
-    opacity: 0.85; /* opacity [0-1] */
-    -moz-opacity: 0.85; /* opacity [0-1] */
-    -webkit-opacity: 0.85; /* opacity [0-1] */
+    opacity: 0.9; /* opacity [0-1] */
+    -moz-opacity: 0.9; /* opacity [0-1] */
+    -webkit-opacity: 0.9; /* opacity [0-1] */
 }
 footer{
     text-align: center;
@@ -22,7 +22,7 @@ footer{
 
 }
 footer h4 a:hover, footer p a:hover{
-    color:blue;
+    color: #a6a2a0;
 }
 footer a{
     color: white;
@@ -40,20 +40,20 @@ footer a{
 }
 
 nav h1{
-    color: white;
+    color: black;
     margin: 5px;
     text-align: center;
 }
 body{
     position:relative;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(255,255,255,.3);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width:100%;
     height:100%;
-    margin:0
+    margin:0;
 }
 body:after{
     position:fixed;
@@ -62,23 +62,68 @@ body:after{
     left:0;
     right:0;
     bottom:0;
-    background:rgba(0,0,0,0.7);
+    background:rgba(255,255,255,0.7);
     z-index:-1;
 }
 .Text{
-    color: white;
+    color: black;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: large;
+    text-align: center;
 }
+p{
+    margin: 10px;
+}
+
+
+.authors a{
+    color:black;
+    font-size: x-large;
+    height: 150px;
+}
+.authors p{
+    color: black;
+}
+.row img{
+    height: 250px;
+    margin-left: -7px;
+    border-radius: 15px;
+}
+.authors .row img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.Text a{
+    color: black;
+    font-size: xx-large;
+}
+
+.mainText p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: .5px solid black;
+}
+
 /* navbar  background color and border color*/
 .navbar-default {
     background-color: #222222;
     border-color: #222222;
     z-index: 9999;
+    border-radius: 0px;
 }
 
 /*Main Text color and size*/
 .navbar-default .navbar-nav > li > a{
     color: white;
     font-size: large;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 /*Main Text highlight Color*/
