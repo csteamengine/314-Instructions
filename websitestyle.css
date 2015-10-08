@@ -72,6 +72,7 @@ body:after{
 .navbar-default {
     background-color: #222222;
     border-color: #222222;
+    z-index: 9999;
 }
 
 /*Main Text color and size*/
