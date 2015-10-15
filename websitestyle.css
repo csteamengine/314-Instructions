@@ -1,9 +1,12 @@
 html {
-    background: url(1280px-Paperairplane.png) no-repeat center center fixed;
+    background: url(breaking-bad.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+h1{
+    font-size: 40px;
 }
 nav{
     opacity: 0.9; /* opacity [0-1] */
@@ -20,6 +23,9 @@ footer{
     opacity: .85;
     background-color: #222222;
 
+}
+.carousel-caption p{
+    border-radius: 10px;
 }
 footer h4 a:hover, footer p a:hover{
     color: #a6a2a0;
@@ -76,7 +82,13 @@ body:after{
 p{
     margin: 10px;
 }
-
+.Instructions {
+    font-size: 15px;
+    margin-bottom: -2px;
+}
+.carousel-indicators{
+    margin-bottom: -5px;
+}
 .carousel-caption > p {
     width: 500px;
     margin: auto;
@@ -96,6 +108,7 @@ p{
     margin-left: -7px;
     border-radius: 15px;
 }
+
 .authors .row img{
     height: 200px;
     width: 200px;
