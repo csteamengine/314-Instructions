@@ -13,6 +13,16 @@ nav{
     -moz-opacity: 0.9; /* opacity [0-1] */
     -webkit-opacity: 0.9; /* opacity [0-1] */
 }
+.bs-example{
+    text-align: center;
+}
+.panel-group{
+    background-color: transparent;
+}
+.panel{
+    background-color: rgba(255,255,255,.6);
+}
+
 footer{
     text-align: center;
     padding-top: 10px;
@@ -83,8 +93,11 @@ p{
     margin: 10px;
 }
 .Instructions {
-    font-size: 15px;
-    margin-bottom: -2px;
+    font-size: 14px;
+    margin-bottom: 2px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .carousel-indicators{
     margin-bottom: -5px;
